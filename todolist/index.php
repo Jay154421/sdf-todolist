@@ -19,7 +19,7 @@ To-Do List
               require_once 'dbconfig.php';
 
                 if($user->is_loggedin()!=""){
-                $user->redirect('Todolist.php');
+                $user->redirect('Dashboard.php');
                 }
       
                 if(isset($_POST['btn-login'])){
